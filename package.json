@@ -1,0 +1,28 @@
+{
+  "name": "stream-x",
+  "version": "1.0.0",
+  "description": "Zero-dependency Node.js stream utilities library",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "stream-x": "cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "demo": "node cli.js demo"
+  },
+  "keywords": [
+    "stream",
+    "node",
+    "utilities",
+    "zero-dependency",
+    "transform",
+    "through",
+    "pipeline"
+  ],
+  "author": "Sulthonzh",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
